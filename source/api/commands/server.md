@@ -195,7 +195,7 @@ cy.server({
 })
 ```
 
-If you would like to change the default option for **ALL** `cy.server()` you [can change this option permanently](#permanently-override-default-server-options).
+If you would like to change the default option for **ALL** `cy.server()` you can change this option permanently by setting {% url `Cypress.Server.defaults()` cypress-server %}.
 
 ***Turn off the server after you've started it***
 
